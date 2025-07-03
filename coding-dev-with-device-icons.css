@@ -1,0 +1,2527 @@
+/* Custom Obsidian Callouts with Lucide Icons - Rainbow Colors */
+/* Created from Development and Devices categories */
+/* Total: 375 unique callouts with vibrant rainbow colors */
+/* 
+   Installation Instructions:
+   1. Save this as a .css file in your .obsidian/snippets/ folder
+   2. Go to Settings > Appearance > CSS snippets
+   3. Enable this snippet
+   4. Use callouts like: > [!icon-name] Title
+*/
+
+.callout[data-callout="airplay"] {
+    --callout-color: 229, 25, 25;
+    --callout-icon: lucide-airplay;
+}
+
+.callout[data-callout="alarm-clock"] {
+    --callout-color: 244, 64, 61;
+    --callout-icon: lucide-alarm-clock;
+}
+
+.callout[data-callout="alarm-clock-check"] {
+    --callout-color: 255, 8, 0;
+    --callout-icon: lucide-alarm-clock-check;
+}
+
+.callout[data-callout="alarm-clock-minus"] {
+    --callout-color: 234, 79, 71;
+    --callout-icon: lucide-alarm-clock-minus;
+}
+
+.callout[data-callout="alarm-clock-off"] {
+    --callout-color: 242, 27, 12;
+    --callout-icon: lucide-alarm-clock-off;
+}
+
+.callout[data-callout="alarm-clock-plus"] {
+    --callout-color: 255, 67, 50;
+    --callout-icon: lucide-alarm-clock-plus;
+}
+
+.callout[data-callout="alarm-smoke"] {
+    --callout-color: 229, 45, 25;
+    --callout-icon: lucide-alarm-smoke;
+}
+
+.callout[data-callout="ampersand"] {
+    --callout-color: 244, 81, 61;
+    --callout-icon: lucide-ampersand;
+}
+
+.callout[data-callout="ampersands"] {
+    --callout-color: 255, 32, 0;
+    --callout-icon: lucide-ampersands;
+}
+
+.callout[data-callout="antenna"] {
+    --callout-color: 234, 94, 71;
+    --callout-icon: lucide-antenna;
+}
+
+.callout[data-callout="app-window"] {
+    --callout-color: 242, 44, 12;
+    --callout-icon: lucide-app-window;
+}
+
+.callout[data-callout="app-window-mac"] {
+    --callout-color: 255, 84, 50;
+    --callout-icon: lucide-app-window-mac;
+}
+
+.callout[data-callout="archive"] {
+    --callout-color: 229, 62, 25;
+    --callout-icon: lucide-archive;
+}
+
+.callout[data-callout="archive-restore"] {
+    --callout-color: 244, 99, 61;
+    --callout-icon: lucide-archive-restore;
+}
+
+.callout[data-callout="archive-x"] {
+    --callout-color: 255, 49, 0;
+    --callout-icon: lucide-archive-x;
+}
+
+.callout[data-callout="arrow-big-down-dash"] {
+    --callout-color: 234, 112, 71;
+    --callout-icon: lucide-arrow-big-down-dash;
+}
+
+.callout[data-callout="arrow-big-up"] {
+    --callout-color: 242, 62, 12;
+    --callout-icon: lucide-arrow-big-up;
+}
+
+.callout[data-callout="arrow-big-up-dash"] {
+    --callout-color: 255, 102, 50;
+    --callout-icon: lucide-arrow-big-up-dash;
+}
+
+.callout[data-callout="arrow-down-from-line"] {
+    --callout-color: 229, 80, 25;
+    --callout-icon: lucide-arrow-down-from-line;
+}
+
+.callout[data-callout="arrow-down-to-line"] {
+    --callout-color: 244, 117, 61;
+    --callout-icon: lucide-arrow-down-to-line;
+}
+
+.callout[data-callout="arrow-right-to-line"] {
+    --callout-color: 255, 67, 0;
+    --callout-icon: lucide-arrow-right-to-line;
+}
+
+.callout[data-callout="arrow-up-from-line"] {
+    --callout-color: 234, 130, 71;
+    --callout-icon: lucide-arrow-up-from-line;
+}
+
+.callout[data-callout="arrow-up-to-line"] {
+    --callout-color: 242, 80, 12;
+    --callout-icon: lucide-arrow-up-to-line;
+}
+
+.callout[data-callout="asterisk"] {
+    --callout-color: 255, 119, 50;
+    --callout-icon: lucide-asterisk;
+}
+
+.callout[data-callout="battery"] {
+    --callout-color: 229, 97, 25;
+    --callout-icon: lucide-battery;
+}
+
+.callout[data-callout="battery-charging"] {
+    --callout-color: 244, 135, 61;
+    --callout-icon: lucide-battery-charging;
+}
+
+.callout[data-callout="battery-full"] {
+    --callout-color: 255, 84, 0;
+    --callout-icon: lucide-battery-full;
+}
+
+.callout[data-callout="battery-low"] {
+    --callout-color: 234, 147, 71;
+    --callout-icon: lucide-battery-low;
+}
+
+.callout[data-callout="battery-medium"] {
+    --callout-color: 242, 97, 12;
+    --callout-icon: lucide-battery-medium;
+}
+
+.callout[data-callout="battery-plus"] {
+    --callout-color: 255, 137, 50;
+    --callout-icon: lucide-battery-plus;
+}
+
+.callout[data-callout="battery-warning"] {
+    --callout-color: 229, 115, 25;
+    --callout-icon: lucide-battery-warning;
+}
+
+.callout[data-callout="bell-electric"] {
+    --callout-color: 244, 152, 61;
+    --callout-icon: lucide-bell-electric;
+}
+
+.callout[data-callout="binary"] {
+    --callout-color: 255, 102, 0;
+    --callout-icon: lucide-binary;
+}
+
+.callout[data-callout="binoculars"] {
+    --callout-color: 234, 165, 71;
+    --callout-icon: lucide-binoculars;
+}
+
+.callout[data-callout="bitcoin"] {
+    --callout-color: 242, 115, 12;
+    --callout-icon: lucide-bitcoin;
+}
+
+.callout[data-callout="blend"] {
+    --callout-color: 255, 154, 50;
+    --callout-icon: lucide-blend;
+}
+
+.callout[data-callout="blocks"] {
+    --callout-color: 229, 132, 25;
+    --callout-icon: lucide-blocks;
+}
+
+.callout[data-callout="bluetooth"] {
+    --callout-color: 244, 170, 61;
+    --callout-icon: lucide-bluetooth;
+}
+
+.callout[data-callout="bluetooth-connected"] {
+    --callout-color: 255, 119, 0;
+    --callout-icon: lucide-bluetooth-connected;
+}
+
+.callout[data-callout="bluetooth-off"] {
+    --callout-color: 234, 183, 71;
+    --callout-icon: lucide-bluetooth-off;
+}
+
+.callout[data-callout="bluetooth-searching"] {
+    --callout-color: 242, 132, 12;
+    --callout-icon: lucide-bluetooth-searching;
+}
+
+.callout[data-callout="book"] {
+    --callout-color: 255, 172, 50;
+    --callout-icon: lucide-book;
+}
+
+.callout[data-callout="book-alert"] {
+    --callout-color: 229, 150, 25;
+    --callout-icon: lucide-book-alert;
+}
+
+.callout[data-callout="book-check"] {
+    --callout-color: 244, 188, 61;
+    --callout-icon: lucide-book-check;
+}
+
+.callout[data-callout="book-copy"] {
+    --callout-color: 255, 137, 0;
+    --callout-icon: lucide-book-copy;
+}
+
+.callout[data-callout="book-dashed"] {
+    --callout-color: 234, 200, 71;
+    --callout-icon: lucide-book-dashed;
+}
+
+.callout[data-callout="book-down"] {
+    --callout-color: 242, 150, 12;
+    --callout-icon: lucide-book-down;
+}
+
+.callout[data-callout="book-image"] {
+    --callout-color: 255, 189, 50;
+    --callout-icon: lucide-book-image;
+}
+
+.callout[data-callout="book-key"] {
+    --callout-color: 229, 167, 25;
+    --callout-icon: lucide-book-key;
+}
+
+.callout[data-callout="book-lock"] {
+    --callout-color: 244, 206, 61;
+    --callout-icon: lucide-book-lock;
+}
+
+.callout[data-callout="book-marked"] {
+    --callout-color: 255, 154, 0;
+    --callout-icon: lucide-book-marked;
+}
+
+.callout[data-callout="book-minus"] {
+    --callout-color: 234, 218, 71;
+    --callout-icon: lucide-book-minus;
+}
+
+.callout[data-callout="book-open"] {
+    --callout-color: 242, 167, 12;
+    --callout-icon: lucide-book-open;
+}
+
+.callout[data-callout="book-open-check"] {
+    --callout-color: 255, 207, 50;
+    --callout-icon: lucide-book-open-check;
+}
+
+.callout[data-callout="book-open-text"] {
+    --callout-color: 229, 185, 25;
+    --callout-icon: lucide-book-open-text;
+}
+
+.callout[data-callout="book-plus"] {
+    --callout-color: 244, 223, 61;
+    --callout-icon: lucide-book-plus;
+}
+
+.callout[data-callout="book-up"] {
+    --callout-color: 255, 172, 0;
+    --callout-icon: lucide-book-up;
+}
+
+.callout[data-callout="book-up-2"] {
+    --callout-color: 234, 236, 71;
+    --callout-icon: lucide-book-up-2;
+}
+
+.callout[data-callout="boom-box"] {
+    --callout-color: 242, 185, 12;
+    --callout-icon: lucide-boom-box;
+}
+
+.callout[data-callout="bot"] {
+    --callout-color: 255, 224, 50;
+    --callout-icon: lucide-bot;
+}
+
+.callout[data-callout="bot-message-square"] {
+    --callout-color: 229, 203, 25;
+    --callout-icon: lucide-bot-message-square;
+}
+
+.callout[data-callout="bot-off"] {
+    --callout-color: 244, 241, 61;
+    --callout-icon: lucide-bot-off;
+}
+
+.callout[data-callout="box"] {
+    --callout-color: 255, 189, 0;
+    --callout-icon: lucide-box;
+}
+
+.callout[data-callout="boxes"] {
+    --callout-color: 234, 254, 71;
+    --callout-icon: lucide-boxes;
+}
+
+.callout[data-callout="braces"] {
+    --callout-color: 242, 203, 12;
+    --callout-icon: lucide-braces;
+}
+
+.callout[data-callout="brackets"] {
+    --callout-color: 255, 242, 50;
+    --callout-icon: lucide-brackets;
+}
+
+.callout[data-callout="brain-circuit"] {
+    --callout-color: 229, 220, 25;
+    --callout-icon: lucide-brain-circuit;
+}
+
+.callout[data-callout="brain-cog"] {
+    --callout-color: 227, 255, 61;
+    --callout-icon: lucide-brain-cog;
+}
+
+.callout[data-callout="bug"] {
+    --callout-color: 255, 207, 0;
+    --callout-icon: lucide-bug;
+}
+
+.callout[data-callout="bug-off"] {
+    --callout-color: 215, 254, 71;
+    --callout-icon: lucide-bug-off;
+}
+
+.callout[data-callout="bug-play"] {
+    --callout-color: 242, 220, 12;
+    --callout-icon: lucide-bug-play;
+}
+
+.callout[data-callout="cable"] {
+    --callout-color: 255, 255, 50;
+    --callout-icon: lucide-cable;
+}
+
+.callout[data-callout="calculator"] {
+    --callout-color: 229, 238, 25;
+    --callout-icon: lucide-calculator;
+}
+
+.callout[data-callout="calendar-fold"] {
+    --callout-color: 203, 255, 61;
+    --callout-icon: lucide-calendar-fold;
+}
+
+.callout[data-callout="camera"] {
+    --callout-color: 255, 224, 0;
+    --callout-icon: lucide-camera;
+}
+
+.callout[data-callout="camera-off"] {
+    --callout-color: 192, 254, 71;
+    --callout-icon: lucide-camera-off;
+}
+
+.callout[data-callout="card-sim"] {
+    --callout-color: 242, 238, 12;
+    --callout-icon: lucide-card-sim;
+}
+
+.callout[data-callout="cassette-tape"] {
+    --callout-color: 247, 255, 50;
+    --callout-icon: lucide-cassette-tape;
+}
+
+.callout[data-callout="cast"] {
+    --callout-color: 229, 255, 25;
+    --callout-icon: lucide-cast;
+}
+
+.callout[data-callout="cctv"] {
+    --callout-color: 179, 255, 61;
+    --callout-icon: lucide-cctv;
+}
+
+.callout[data-callout="chart-no-axes-gantt"] {
+    --callout-color: 255, 242, 0;
+    --callout-icon: lucide-chart-no-axes-gantt;
+}
+
+.callout[data-callout="chart-pie"] {
+    --callout-color: 168, 254, 71;
+    --callout-icon: lucide-chart-pie;
+}
+
+.callout[data-callout="chevron-right"] {
+    --callout-color: 242, 255, 12;
+    --callout-icon: lucide-chevron-right;
+}
+
+.callout[data-callout="chevrons-left-right-ellipsis"] {
+    --callout-color: 235, 255, 50;
+    --callout-icon: lucide-chevrons-left-right-ellipsis;
+}
+
+.callout[data-callout="circle-arrow-out-up-left"] {
+    --callout-color: 211, 255, 25;
+    --callout-icon: lucide-circle-arrow-out-up-left;
+}
+
+.callout[data-callout="circle-dashed"] {
+    --callout-color: 155, 255, 61;
+    --callout-icon: lucide-circle-dashed;
+}
+
+.callout[data-callout="circle-dot"] {
+    --callout-color: 237, 255, 0;
+    --callout-icon: lucide-circle-dot;
+}
+
+.callout[data-callout="circle-dot-dashed"] {
+    --callout-color: 144, 254, 71;
+    --callout-icon: lucide-circle-dot-dashed;
+}
+
+.callout[data-callout="circle-ellipsis"] {
+    --callout-color: 226, 255, 12;
+    --callout-icon: lucide-circle-ellipsis;
+}
+
+.callout[data-callout="circle-fading-arrow-up"] {
+    --callout-color: 223, 255, 50;
+    --callout-icon: lucide-circle-fading-arrow-up;
+}
+
+.callout[data-callout="circle-plus"] {
+    --callout-color: 193, 255, 25;
+    --callout-icon: lucide-circle-plus;
+}
+
+.callout[data-callout="circle-slash"] {
+    --callout-color: 131, 255, 61;
+    --callout-icon: lucide-circle-slash;
+}
+
+.callout[data-callout="circle-slash-2"] {
+    --callout-color: 215, 255, 0;
+    --callout-icon: lucide-circle-slash-2;
+}
+
+.callout[data-callout="circle-x"] {
+    --callout-color: 120, 254, 71;
+    --callout-icon: lucide-circle-x;
+}
+
+.callout[data-callout="circuit-board"] {
+    --callout-color: 206, 255, 12;
+    --callout-icon: lucide-circuit-board;
+}
+
+.callout[data-callout="cloud-alert"] {
+    --callout-color: 211, 255, 50;
+    --callout-icon: lucide-cloud-alert;
+}
+
+.callout[data-callout="cloud-check"] {
+    --callout-color: 175, 255, 25;
+    --callout-icon: lucide-cloud-check;
+}
+
+.callout[data-callout="cloud-cog"] {
+    --callout-color: 107, 255, 61;
+    --callout-icon: lucide-cloud-cog;
+}
+
+.callout[data-callout="cloud-download"] {
+    --callout-color: 193, 255, 0;
+    --callout-icon: lucide-cloud-download;
+}
+
+.callout[data-callout="cloud-upload"] {
+    --callout-color: 96, 254, 71;
+    --callout-icon: lucide-cloud-upload;
+}
+
+.callout[data-callout="code"] {
+    --callout-color: 186, 255, 12;
+    --callout-icon: lucide-code;
+}
+
+.callout[data-callout="code-xml"] {
+    --callout-color: 199, 255, 50;
+    --callout-icon: lucide-code-xml;
+}
+
+.callout[data-callout="codepen"] {
+    --callout-color: 157, 255, 25;
+    --callout-icon: lucide-codepen;
+}
+
+.callout[data-callout="codesandbox"] {
+    --callout-color: 83, 255, 61;
+    --callout-icon: lucide-codesandbox;
+}
+
+.callout[data-callout="combine"] {
+    --callout-color: 171, 255, 0;
+    --callout-icon: lucide-combine;
+}
+
+.callout[data-callout="command"] {
+    --callout-color: 72, 254, 71;
+    --callout-icon: lucide-command;
+}
+
+.callout[data-callout="component"] {
+    --callout-color: 166, 255, 12;
+    --callout-icon: lucide-component;
+}
+
+.callout[data-callout="computer"] {
+    --callout-color: 187, 255, 50;
+    --callout-icon: lucide-computer;
+}
+
+.callout[data-callout="construction"] {
+    --callout-color: 139, 255, 25;
+    --callout-icon: lucide-construction;
+}
+
+.callout[data-callout="container"] {
+    --callout-color: 59, 255, 61;
+    --callout-icon: lucide-container;
+}
+
+.callout[data-callout="copy-slash"] {
+    --callout-color: 149, 255, 0;
+    --callout-icon: lucide-copy-slash;
+}
+
+.callout[data-callout="corner-down-right"] {
+    --callout-color: 48, 254, 71;
+    --callout-icon: lucide-corner-down-right;
+}
+
+.callout[data-callout="cpu"] {
+    --callout-color: 146, 255, 12;
+    --callout-icon: lucide-cpu;
+}
+
+.callout[data-callout="database"] {
+    --callout-color: 175, 255, 50;
+    --callout-icon: lucide-database;
+}
+
+.callout[data-callout="database-backup"] {
+    --callout-color: 121, 255, 25;
+    --callout-icon: lucide-database-backup;
+}
+
+.callout[data-callout="database-zap"] {
+    --callout-color: 35, 255, 61;
+    --callout-icon: lucide-database-zap;
+}
+
+.callout[data-callout="diamond-minus"] {
+    --callout-color: 127, 255, 0;
+    --callout-icon: lucide-diamond-minus;
+}
+
+.callout[data-callout="diamond-plus"] {
+    --callout-color: 24, 254, 71;
+    --callout-icon: lucide-diamond-plus;
+}
+
+.callout[data-callout="diff"] {
+    --callout-color: 126, 255, 12;
+    --callout-icon: lucide-diff;
+}
+
+.callout[data-callout="disc"] {
+    --callout-color: 163, 255, 50;
+    --callout-icon: lucide-disc;
+}
+
+.callout[data-callout="disc-2"] {
+    --callout-color: 103, 255, 25;
+    --callout-icon: lucide-disc-2;
+}
+
+.callout[data-callout="disc-3"] {
+    --callout-color: 11, 255, 61;
+    --callout-icon: lucide-disc-3;
+}
+
+.callout[data-callout="disc-album"] {
+    --callout-color: 105, 255, 0;
+    --callout-icon: lucide-disc-album;
+}
+
+.callout[data-callout="divide"] {
+    --callout-color: 0, 254, 71;
+    --callout-icon: lucide-divide;
+}
+
+.callout[data-callout="dock"] {
+    --callout-color: 106, 255, 12;
+    --callout-icon: lucide-dock;
+}
+
+.callout[data-callout="download"] {
+    --callout-color: 151, 255, 50;
+    --callout-icon: lucide-download;
+}
+
+.callout[data-callout="drill"] {
+    --callout-color: 85, 255, 25;
+    --callout-icon: lucide-drill;
+}
+
+.callout[data-callout="drone"] {
+    --callout-color: 25, 243, 61;
+    --callout-icon: lucide-drone;
+}
+
+.callout[data-callout="drum"] {
+    --callout-color: 83, 255, 0;
+    --callout-icon: lucide-drum;
+}
+
+.callout[data-callout="earth-lock"] {
+    --callout-color: 3, 254, 71;
+    --callout-icon: lucide-earth-lock;
+}
+
+.callout[data-callout="eclipse"] {
+    --callout-color: 86, 255, 12;
+    --callout-icon: lucide-eclipse;
+}
+
+.callout[data-callout="ellipsis"] {
+    --callout-color: 139, 255, 50;
+    --callout-icon: lucide-ellipsis;
+}
+
+.callout[data-callout="equal"] {
+    --callout-color: 67, 255, 25;
+    --callout-icon: lucide-equal;
+}
+
+.callout[data-callout="equal-not"] {
+    --callout-color: 25, 227, 61;
+    --callout-icon: lucide-equal-not;
+}
+
+.callout[data-callout="ethernet-port"] {
+    --callout-color: 61, 255, 0;
+    --callout-icon: lucide-ethernet-port;
+}
+
+.callout[data-callout="file"] {
+    --callout-color: 19, 254, 71;
+    --callout-icon: lucide-file;
+}
+
+.callout[data-callout="file-archive"] {
+    --callout-color: 66, 255, 12;
+    --callout-icon: lucide-file-archive;
+}
+
+.callout[data-callout="file-audio"] {
+    --callout-color: 127, 255, 50;
+    --callout-icon: lucide-file-audio;
+}
+
+.callout[data-callout="file-audio-2"] {
+    --callout-color: 49, 255, 25;
+    --callout-icon: lucide-file-audio-2;
+}
+
+.callout[data-callout="file-axis-3d"] {
+    --callout-color: 25, 211, 61;
+    --callout-icon: lucide-file-axis-3d;
+}
+
+.callout[data-callout="file-badge"] {
+    --callout-color: 39, 255, 0;
+    --callout-icon: lucide-file-badge;
+}
+
+.callout[data-callout="file-badge-2"] {
+    --callout-color: 35, 254, 71;
+    --callout-icon: lucide-file-badge-2;
+}
+
+.callout[data-callout="file-box"] {
+    --callout-color: 46, 255, 12;
+    --callout-icon: lucide-file-box;
+}
+
+.callout[data-callout="file-chart-column"] {
+    --callout-color: 115, 255, 50;
+    --callout-icon: lucide-file-chart-column;
+}
+
+.callout[data-callout="file-chart-column-increasing"] {
+    --callout-color: 31, 255, 25;
+    --callout-icon: lucide-file-chart-column-increasing;
+}
+
+.callout[data-callout="file-chart-line"] {
+    --callout-color: 25, 195, 61;
+    --callout-icon: lucide-file-chart-line;
+}
+
+.callout[data-callout="file-chart-pie"] {
+    --callout-color: 17, 255, 0;
+    --callout-icon: lucide-file-chart-pie;
+}
+
+.callout[data-callout="file-check"] {
+    --callout-color: 51, 254, 71;
+    --callout-icon: lucide-file-check;
+}
+
+.callout[data-callout="file-check-2"] {
+    --callout-color: 26, 255, 12;
+    --callout-icon: lucide-file-check-2;
+}
+
+.callout[data-callout="file-clock"] {
+    --callout-color: 103, 255, 50;
+    --callout-icon: lucide-file-clock;
+}
+
+.callout[data-callout="file-code"] {
+    --callout-color: 13, 255, 25;
+    --callout-icon: lucide-file-code;
+}
+
+.callout[data-callout="file-code-2"] {
+    --callout-color: 25, 179, 61;
+    --callout-icon: lucide-file-code-2;
+}
+
+.callout[data-callout="file-cog"] {
+    --callout-color: 25, 253, 0;
+    --callout-icon: lucide-file-cog;
+}
+
+.callout[data-callout="file-diff"] {
+    --callout-color: 67, 254, 71;
+    --callout-icon: lucide-file-diff;
+}
+
+.callout[data-callout="file-digit"] {
+    --callout-color: 6, 255, 12;
+    --callout-icon: lucide-file-digit;
+}
+
+.callout[data-callout="file-down"] {
+    --callout-color: 91, 255, 50;
+    --callout-icon: lucide-file-down;
+}
+
+.callout[data-callout="file-heart"] {
+    --callout-color: 25, 241, 25;
+    --callout-icon: lucide-file-heart;
+}
+
+.callout[data-callout="file-image"] {
+    --callout-color: 25, 163, 61;
+    --callout-icon: lucide-file-image;
+}
+
+.callout[data-callout="file-input"] {
+    --callout-color: 3, 245, 0;
+    --callout-icon: lucide-file-input;
+}
+
+.callout[data-callout="file-json"] {
+    --callout-color: 83, 254, 71;
+    --callout-icon: lucide-file-json;
+}
+
+.callout[data-callout="file-json-2"] {
+    --callout-color: 25, 249, 12;
+    --callout-icon: lucide-file-json-2;
+}
+
+.callout[data-callout="file-key"] {
+    --callout-color: 79, 255, 50;
+    --callout-icon: lucide-file-key;
+}
+
+.callout[data-callout="file-key-2"] {
+    --callout-color: 7, 225, 25;
+    --callout-icon: lucide-file-key-2;
+}
+
+.callout[data-callout="file-lock"] {
+    --callout-color: 25, 147, 61;
+    --callout-icon: lucide-file-lock;
+}
+
+.callout[data-callout="file-lock-2"] {
+    --callout-color: 25, 237, 0;
+    --callout-icon: lucide-file-lock-2;
+}
+
+.callout[data-callout="file-minus"] {
+    --callout-color: 99, 254, 71;
+    --callout-icon: lucide-file-minus;
+}
+
+.callout[data-callout="file-minus-2"] {
+    --callout-color: 8, 245, 12;
+    --callout-icon: lucide-file-minus-2;
+}
+
+.callout[data-callout="file-music"] {
+    --callout-color: 67, 255, 50;
+    --callout-icon: lucide-file-music;
+}
+
+.callout[data-callout="file-output"] {
+    --callout-color: 25, 209, 25;
+    --callout-icon: lucide-file-output;
+}
+
+.callout[data-callout="file-pen"] {
+    --callout-color: 25, 131, 61;
+    --callout-icon: lucide-file-pen;
+}
+
+.callout[data-callout="file-pen-line"] {
+    --callout-color: 9, 229, 0;
+    --callout-icon: lucide-file-pen-line;
+}
+
+.callout[data-callout="file-plus"] {
+    --callout-color: 115, 254, 71;
+    --callout-icon: lucide-file-plus;
+}
+
+.callout[data-callout="file-plus-2"] {
+    --callout-color: 25, 241, 12;
+    --callout-icon: lucide-file-plus-2;
+}
+
+.callout[data-callout="file-question-mark"] {
+    --callout-color: 55, 255, 50;
+    --callout-icon: lucide-file-question-mark;
+}
+
+.callout[data-callout="file-scan"] {
+    --callout-color: 25, 193, 25;
+    --callout-icon: lucide-file-scan;
+}
+
+.callout[data-callout="file-search"] {
+    --callout-color: 25, 115, 61;
+    --callout-icon: lucide-file-search;
+}
+
+.callout[data-callout="file-search-2"] {
+    --callout-color: 25, 221, 0;
+    --callout-icon: lucide-file-search-2;
+}
+
+.callout[data-callout="file-sliders"] {
+    --callout-color: 131, 254, 71;
+    --callout-icon: lucide-file-sliders;
+}
+
+.callout[data-callout="file-spreadsheet"] {
+    --callout-color: 5, 237, 12;
+    --callout-icon: lucide-file-spreadsheet;
+}
+
+.callout[data-callout="file-stack"] {
+    --callout-color: 43, 255, 50;
+    --callout-icon: lucide-file-stack;
+}
+
+.callout[data-callout="file-symlink"] {
+    --callout-color: 25, 177, 25;
+    --callout-icon: lucide-file-symlink;
+}
+
+.callout[data-callout="file-terminal"] {
+    --callout-color: 25, 99, 61;
+    --callout-icon: lucide-file-terminal;
+}
+
+.callout[data-callout="file-text"] {
+    --callout-color: 25, 213, 0;
+    --callout-icon: lucide-file-text;
+}
+
+.callout[data-callout="file-type"] {
+    --callout-color: 147, 254, 71;
+    --callout-icon: lucide-file-type;
+}
+
+.callout[data-callout="file-type-2"] {
+    --callout-color: 25, 233, 12;
+    --callout-icon: lucide-file-type-2;
+}
+
+.callout[data-callout="file-up"] {
+    --callout-color: 31, 255, 50;
+    --callout-icon: lucide-file-up;
+}
+
+.callout[data-callout="file-user"] {
+    --callout-color: 25, 161, 25;
+    --callout-icon: lucide-file-user;
+}
+
+.callout[data-callout="file-video"] {
+    --callout-color: 25, 83, 61;
+    --callout-icon: lucide-file-video;
+}
+
+.callout[data-callout="file-video-2"] {
+    --callout-color: 25, 205, 0;
+    --callout-icon: lucide-file-video-2;
+}
+
+.callout[data-callout="file-volume"] {
+    --callout-color: 163, 254, 71;
+    --callout-icon: lucide-file-volume;
+}
+
+.callout[data-callout="file-volume-2"] {
+    --callout-color: 10, 229, 12;
+    --callout-icon: lucide-file-volume-2;
+}
+
+.callout[data-callout="file-warning"] {
+    --callout-color: 19, 255, 50;
+    --callout-icon: lucide-file-warning;
+}
+
+.callout[data-callout="file-x"] {
+    --callout-color: 25, 145, 25;
+    --callout-icon: lucide-file-x;
+}
+
+.callout[data-callout="file-x-2"] {
+    --callout-color: 25, 67, 61;
+    --callout-icon: lucide-file-x-2;
+}
+
+.callout[data-callout="files"] {
+    --callout-color: 25, 197, 0;
+    --callout-icon: lucide-files;
+}
+
+.callout[data-callout="fingerprint"] {
+    --callout-color: 179, 254, 71;
+    --callout-icon: lucide-fingerprint;
+}
+
+.callout[data-callout="flag-triangle-left"] {
+    --callout-color: 26, 225, 12;
+    --callout-icon: lucide-flag-triangle-left;
+}
+
+.callout[data-callout="flag-triangle-right"] {
+    --callout-color: 7, 255, 50;
+    --callout-icon: lucide-flag-triangle-right;
+}
+
+.callout[data-callout="flashlight"] {
+    --callout-color: 25, 129, 25;
+    --callout-icon: lucide-flashlight;
+}
+
+.callout[data-callout="flashlight-off"] {
+    --callout-color: 25, 51, 61;
+    --callout-icon: lucide-flashlight-off;
+}
+
+.callout[data-callout="folder"] {
+    --callout-color: 25, 189, 0;
+    --callout-icon: lucide-folder;
+}
+
+.callout[data-callout="folder-archive"] {
+    --callout-color: 195, 254, 71;
+    --callout-icon: lucide-folder-archive;
+}
+
+.callout[data-callout="folder-check"] {
+    --callout-color: 42, 221, 12;
+    --callout-icon: lucide-folder-check;
+}
+
+.callout[data-callout="folder-clock"] {
+    --callout-color: 25, 251, 50;
+    --callout-icon: lucide-folder-clock;
+}
+
+.callout[data-callout="folder-closed"] {
+    --callout-color: 25, 113, 25;
+    --callout-icon: lucide-folder-closed;
+}
+
+.callout[data-callout="folder-code"] {
+    --callout-color: 25, 35, 61;
+    --callout-icon: lucide-folder-code;
+}
+
+.callout[data-callout="folder-cog"] {
+    --callout-color: 25, 181, 0;
+    --callout-icon: lucide-folder-cog;
+}
+
+.callout[data-callout="folder-dot"] {
+    --callout-color: 211, 254, 71;
+    --callout-icon: lucide-folder-dot;
+}
+
+.callout[data-callout="folder-down"] {
+    --callout-color: 58, 217, 12;
+    --callout-icon: lucide-folder-down;
+}
+
+.callout[data-callout="folder-git"] {
+    --callout-color: 13, 247, 50;
+    --callout-icon: lucide-folder-git;
+}
+
+.callout[data-callout="folder-git-2"] {
+    --callout-color: 25, 97, 25;
+    --callout-icon: lucide-folder-git-2;
+}
+
+.callout[data-callout="folder-heart"] {
+    --callout-color: 25, 19, 61;
+    --callout-icon: lucide-folder-heart;
+}
+
+.callout[data-callout="folder-input"] {
+    --callout-color: 25, 173, 0;
+    --callout-icon: lucide-folder-input;
+}
+
+.callout[data-callout="folder-kanban"] {
+    --callout-color: 227, 254, 71;
+    --callout-icon: lucide-folder-kanban;
+}
+
+.callout[data-callout="folder-key"] {
+    --callout-color: 74, 213, 12;
+    --callout-icon: lucide-folder-key;
+}
+
+.callout[data-callout="folder-lock"] {
+    --callout-color: 1, 243, 50;
+    --callout-icon: lucide-folder-lock;
+}
+
+.callout[data-callout="folder-minus"] {
+    --callout-color: 25, 81, 25;
+    --callout-icon: lucide-folder-minus;
+}
+
+.callout[data-callout="folder-open"] {
+    --callout-color: 25, 3, 61;
+    --callout-icon: lucide-folder-open;
+}
+
+.callout[data-callout="folder-open-dot"] {
+    --callout-color: 25, 165, 0;
+    --callout-icon: lucide-folder-open-dot;
+}
+
+.callout[data-callout="folder-output"] {
+    --callout-color: 243, 254, 71;
+    --callout-icon: lucide-folder-output;
+}
+
+.callout[data-callout="folder-pen"] {
+    --callout-color: 90, 209, 12;
+    --callout-icon: lucide-folder-pen;
+}
+
+.callout[data-callout="folder-plus"] {
+    --callout-color: 25, 239, 50;
+    --callout-icon: lucide-folder-plus;
+}
+
+.callout[data-callout="folder-root"] {
+    --callout-color: 25, 65, 25;
+    --callout-icon: lucide-folder-root;
+}
+
+.callout[data-callout="folder-search"] {
+    --callout-color: 43, 243, 61;
+    --callout-icon: lucide-folder-search;
+}
+
+.callout[data-callout="folder-search-2"] {
+    --callout-color: 25, 157, 0;
+    --callout-icon: lucide-folder-search-2;
+}
+
+.callout[data-callout="folder-symlink"] {
+    --callout-color: 255, 254, 71;
+    --callout-icon: lucide-folder-symlink;
+}
+
+.callout[data-callout="folder-sync"] {
+    --callout-color: 106, 205, 12;
+    --callout-icon: lucide-folder-sync;
+}
+
+.callout[data-callout="folder-tree"] {
+    --callout-color: 13, 235, 50;
+    --callout-icon: lucide-folder-tree;
+}
+
+.callout[data-callout="folder-up"] {
+    --callout-color: 25, 49, 25;
+    --callout-icon: lucide-folder-up;
+}
+
+.callout[data-callout="folder-x"] {
+    --callout-color: 59, 227, 61;
+    --callout-icon: lucide-folder-x;
+}
+
+.callout[data-callout="folders"] {
+    --callout-color: 25, 149, 0;
+    --callout-icon: lucide-folders;
+}
+
+.callout[data-callout="gallery-horizontal"] {
+    --callout-color: 237, 254, 71;
+    --callout-icon: lucide-gallery-horizontal;
+}
+
+.callout[data-callout="gallery-horizontal-end"] {
+    --callout-color: 122, 201, 12;
+    --callout-icon: lucide-gallery-horizontal-end;
+}
+
+.callout[data-callout="gallery-thumbnails"] {
+    --callout-color: 1, 231, 50;
+    --callout-icon: lucide-gallery-thumbnails;
+}
+
+.callout[data-callout="gallery-vertical"] {
+    --callout-color: 25, 33, 25;
+    --callout-icon: lucide-gallery-vertical;
+}
+
+.callout[data-callout="gallery-vertical-end"] {
+    --callout-color: 75, 211, 61;
+    --callout-icon: lucide-gallery-vertical-end;
+}
+
+.callout[data-callout="gamepad"] {
+    --callout-color: 25, 141, 0;
+    --callout-icon: lucide-gamepad;
+}
+
+.callout[data-callout="gamepad-2"] {
+    --callout-color: 223, 254, 71;
+    --callout-icon: lucide-gamepad-2;
+}
+
+.callout[data-callout="gem"] {
+    --callout-color: 138, 197, 12;
+    --callout-icon: lucide-gem;
+}
+
+.callout[data-callout="git-branch"] {
+    --callout-color: 25, 227, 50;
+    --callout-icon: lucide-git-branch;
+}
+
+.callout[data-callout="git-branch-plus"] {
+    --callout-color: 25, 17, 25;
+    --callout-icon: lucide-git-branch-plus;
+}
+
+.callout[data-callout="git-commit-horizontal"] {
+    --callout-color: 91, 195, 61;
+    --callout-icon: lucide-git-commit-horizontal;
+}
+
+.callout[data-callout="git-commit-vertical"] {
+    --callout-color: 25, 133, 0;
+    --callout-icon: lucide-git-commit-vertical;
+}
+
+.callout[data-callout="git-compare"] {
+    --callout-color: 209, 254, 71;
+    --callout-icon: lucide-git-compare;
+}
+
+.callout[data-callout="git-compare-arrows"] {
+    --callout-color: 154, 193, 12;
+    --callout-icon: lucide-git-compare-arrows;
+}
+
+.callout[data-callout="git-fork"] {
+    --callout-color: 13, 223, 50;
+    --callout-icon: lucide-git-fork;
+}
+
+.callout[data-callout="git-graph"] {
+    --callout-color: 25, 1, 25;
+    --callout-icon: lucide-git-graph;
+}
+
+.callout[data-callout="git-merge"] {
+    --callout-color: 107, 179, 61;
+    --callout-icon: lucide-git-merge;
+}
+
+.callout[data-callout="git-pull-request"] {
+    --callout-color: 25, 125, 0;
+    --callout-icon: lucide-git-pull-request;
+}
+
+.callout[data-callout="git-pull-request-arrow"] {
+    --callout-color: 195, 254, 71;
+    --callout-icon: lucide-git-pull-request-arrow;
+}
+
+.callout[data-callout="git-pull-request-closed"] {
+    --callout-color: 170, 189, 12;
+    --callout-icon: lucide-git-pull-request-closed;
+}
+
+.callout[data-callout="git-pull-request-create"] {
+    --callout-color: 1, 219, 50;
+    --callout-icon: lucide-git-pull-request-create;
+}
+
+.callout[data-callout="git-pull-request-create-arrow"] {
+    --callout-color: 49, 241, 25;
+    --callout-icon: lucide-git-pull-request-create-arrow;
+}
+
+.callout[data-callout="git-pull-request-draft"] {
+    --callout-color: 123, 163, 61;
+    --callout-icon: lucide-git-pull-request-draft;
+}
+
+.callout[data-callout="github"] {
+    --callout-color: 25, 117, 0;
+    --callout-icon: lucide-github;
+}
+
+.callout[data-callout="gitlab"] {
+    --callout-color: 181, 254, 71;
+    --callout-icon: lucide-gitlab;
+}
+
+.callout[data-callout="globe-lock"] {
+    --callout-color: 186, 185, 12;
+    --callout-icon: lucide-globe-lock;
+}
+
+.callout[data-callout="gpu"] {
+    --callout-color: 25, 215, 50;
+    --callout-icon: lucide-gpu;
+}
+
+.callout[data-callout="group"] {
+    --callout-color: 65, 225, 25;
+    --callout-icon: lucide-group;
+}
+
+.callout[data-callout="hard-drive"] {
+    --callout-color: 139, 147, 61;
+    --callout-icon: lucide-hard-drive;
+}
+
+.callout[data-callout="hard-drive-download"] {
+    --callout-color: 25, 109, 0;
+    --callout-icon: lucide-hard-drive-download;
+}
+
+.callout[data-callout="hard-drive-upload"] {
+    --callout-color: 167, 254, 71;
+    --callout-icon: lucide-hard-drive-upload;
+}
+
+.callout[data-callout="hdmi-port"] {
+    --callout-color: 202, 181, 12;
+    --callout-icon: lucide-hdmi-port;
+}
+
+.callout[data-callout="headphone-off"] {
+    --callout-color: 13, 211, 50;
+    --callout-icon: lucide-headphone-off;
+}
+
+.callout[data-callout="headphones"] {
+    --callout-color: 81, 209, 25;
+    --callout-icon: lucide-headphones;
+}
+
+.callout[data-callout="headset"] {
+    --callout-color: 155, 131, 61;
+    --callout-icon: lucide-headset;
+}
+
+.callout[data-callout="heater"] {
+    --callout-color: 25, 101, 0;
+    --callout-icon: lucide-heater;
+}
+
+.callout[data-callout="hexagon"] {
+    --callout-color: 153, 254, 71;
+    --callout-icon: lucide-hexagon;
+}
+
+.callout[data-callout="image"] {
+    --callout-color: 218, 177, 12;
+    --callout-icon: lucide-image;
+}
+
+.callout[data-callout="image-down"] {
+    --callout-color: 1, 207, 50;
+    --callout-icon: lucide-image-down;
+}
+
+.callout[data-callout="image-minus"] {
+    --callout-color: 97, 193, 25;
+    --callout-icon: lucide-image-minus;
+}
+
+.callout[data-callout="image-off"] {
+    --callout-color: 171, 115, 61;
+    --callout-icon: lucide-image-off;
+}
+
+.callout[data-callout="image-play"] {
+    --callout-color: 25, 93, 0;
+    --callout-icon: lucide-image-play;
+}
+
+.callout[data-callout="image-plus"] {
+    --callout-color: 139, 254, 71;
+    --callout-icon: lucide-image-plus;
+}
+
+.callout[data-callout="image-up"] {
+    --callout-color: 234, 173, 12;
+    --callout-icon: lucide-image-up;
+}
+
+.callout[data-callout="images"] {
+    --callout-color: 25, 203, 50;
+    --callout-icon: lucide-images;
+}
+
+.callout[data-callout="import"] {
+    --callout-color: 113, 177, 25;
+    --callout-icon: lucide-import;
+}
+
+.callout[data-callout="indent-decrease"] {
+    --callout-color: 187, 99, 61;
+    --callout-icon: lucide-indent-decrease;
+}
+
+.callout[data-callout="indent-increase"] {
+    --callout-color: 25, 85, 0;
+    --callout-icon: lucide-indent-increase;
+}
+
+.callout[data-callout="joystick"] {
+    --callout-color: 125, 254, 71;
+    --callout-icon: lucide-joystick;
+}
+
+.callout[data-callout="kanban"] {
+    --callout-color: 250, 169, 12;
+    --callout-icon: lucide-kanban;
+}
+
+.callout[data-callout="keyboard"] {
+    --callout-color: 13, 199, 50;
+    --callout-icon: lucide-keyboard;
+}
+
+.callout[data-callout="keyboard-music"] {
+    --callout-color: 129, 161, 25;
+    --callout-icon: lucide-keyboard-music;
+}
+
+.callout[data-callout="keyboard-off"] {
+    --callout-color: 203, 83, 61;
+    --callout-icon: lucide-keyboard-off;
+}
+
+.callout[data-callout="laptop"] {
+    --callout-color: 25, 77, 0;
+    --callout-icon: lucide-laptop;
+}
+
+.callout[data-callout="laptop-minimal"] {
+    --callout-color: 111, 254, 71;
+    --callout-icon: lucide-laptop-minimal;
+}
+
+.callout[data-callout="laptop-minimal-check"] {
+    --callout-color: 255, 165, 12;
+    --callout-icon: lucide-laptop-minimal-check;
+}
+
+.callout[data-callout="library"] {
+    --callout-color: 1, 195, 50;
+    --callout-icon: lucide-library;
+}
+
+.callout[data-callout="library-big"] {
+    --callout-color: 145, 145, 25;
+    --callout-icon: lucide-library-big;
+}
+
+.callout[data-callout="list-tree"] {
+    --callout-color: 219, 67, 61;
+    --callout-icon: lucide-list-tree;
+}
+
+.callout[data-callout="memory-stick"] {
+    --callout-color: 25, 69, 0;
+    --callout-icon: lucide-memory-stick;
+}
+
+.callout[data-callout="merge"] {
+    --callout-color: 97, 254, 71;
+    --callout-icon: lucide-merge;
+}
+
+.callout[data-callout="message-circle-code"] {
+    --callout-color: 237, 161, 12;
+    --callout-icon: lucide-message-circle-code;
+}
+
+.callout[data-callout="message-square-code"] {
+    --callout-color: 25, 191, 50;
+    --callout-icon: lucide-message-square-code;
+}
+
+.callout[data-callout="message-square-diff"] {
+    --callout-color: 161, 129, 25;
+    --callout-icon: lucide-message-square-diff;
+}
+
+.callout[data-callout="mic"] {
+    --callout-color: 235, 51, 61;
+    --callout-icon: lucide-mic;
+}
+
+.callout[data-callout="mic-off"] {
+    --callout-color: 25, 61, 0;
+    --callout-icon: lucide-mic-off;
+}
+
+.callout[data-callout="mic-vocal"] {
+    --callout-color: 83, 254, 71;
+    --callout-icon: lucide-mic-vocal;
+}
+
+.callout[data-callout="microchip"] {
+    --callout-color: 253, 157, 12;
+    --callout-icon: lucide-microchip;
+}
+
+.callout[data-callout="milestone"] {
+    --callout-color: 13, 187, 50;
+    --callout-icon: lucide-milestone;
+}
+
+.callout[data-callout="minus"] {
+    --callout-color: 177, 113, 25;
+    --callout-icon: lucide-minus;
+}
+
+.callout[data-callout="monitor"] {
+    --callout-color: 251, 35, 61;
+    --callout-icon: lucide-monitor;
+}
+
+.callout[data-callout="monitor-check"] {
+    --callout-color: 25, 53, 0;
+    --callout-icon: lucide-monitor-check;
+}
+
+.callout[data-callout="monitor-cog"] {
+    --callout-color: 69, 254, 71;
+    --callout-icon: lucide-monitor-cog;
+}
+
+.callout[data-callout="monitor-dot"] {
+    --callout-color: 241, 153, 12;
+    --callout-icon: lucide-monitor-dot;
+}
+
+.callout[data-callout="monitor-down"] {
+    --callout-color: 1, 183, 50;
+    --callout-icon: lucide-monitor-down;
+}
+
+.callout[data-callout="monitor-off"] {
+    --callout-color: 193, 97, 25;
+    --callout-icon: lucide-monitor-off;
+}
+
+.callout[data-callout="monitor-pause"] {
+    --callout-color: 255, 19, 61;
+    --callout-icon: lucide-monitor-pause;
+}
+
+.callout[data-callout="monitor-play"] {
+    --callout-color: 25, 45, 0;
+    --callout-icon: lucide-monitor-play;
+}
+
+.callout[data-callout="monitor-smartphone"] {
+    --callout-color: 55, 254, 71;
+    --callout-icon: lucide-monitor-smartphone;
+}
+
+.callout[data-callout="monitor-speaker"] {
+    --callout-color: 229, 149, 12;
+    --callout-icon: lucide-monitor-speaker;
+}
+
+.callout[data-callout="monitor-stop"] {
+    --callout-color: 25, 179, 50;
+    --callout-icon: lucide-monitor-stop;
+}
+
+.callout[data-callout="monitor-up"] {
+    --callout-color: 209, 81, 25;
+    --callout-icon: lucide-monitor-up;
+}
+
+.callout[data-callout="monitor-x"] {
+    --callout-color: 243, 3, 61;
+    --callout-icon: lucide-monitor-x;
+}
+
+.callout[data-callout="mouse"] {
+    --callout-color: 25, 37, 0;
+    --callout-icon: lucide-mouse;
+}
+
+.callout[data-callout="mouse-off"] {
+    --callout-color: 41, 254, 71;
+    --callout-icon: lucide-mouse-off;
+}
+
+.callout[data-callout="music"] {
+    --callout-color: 217, 145, 12;
+    --callout-icon: lucide-music;
+}
+
+.callout[data-callout="music-2"] {
+    --callout-color: 13, 175, 50;
+    --callout-icon: lucide-music-2;
+}
+
+.callout[data-callout="music-3"] {
+    --callout-color: 225, 65, 25;
+    --callout-icon: lucide-music-3;
+}
+
+.callout[data-callout="music-4"] {
+    --callout-color: 231, 243, 61;
+    --callout-icon: lucide-music-4;
+}
+
+.callout[data-callout="network"] {
+    --callout-color: 25, 29, 0;
+    --callout-icon: lucide-network;
+}
+
+.callout[data-callout="nfc"] {
+    --callout-color: 27, 254, 71;
+    --callout-icon: lucide-nfc;
+}
+
+.callout[data-callout="omega"] {
+    --callout-color: 205, 141, 12;
+    --callout-icon: lucide-omega;
+}
+
+.callout[data-callout="option"] {
+    --callout-color: 1, 171, 50;
+    --callout-icon: lucide-option;
+}
+
+.callout[data-callout="package"] {
+    --callout-color: 241, 49, 25;
+    --callout-icon: lucide-package;
+}
+
+.callout[data-callout="package-2"] {
+    --callout-color: 219, 227, 61;
+    --callout-icon: lucide-package-2;
+}
+
+.callout[data-callout="package-check"] {
+    --callout-color: 25, 21, 0;
+    --callout-icon: lucide-package-check;
+}
+
+.callout[data-callout="package-minus"] {
+    --callout-color: 13, 254, 71;
+    --callout-icon: lucide-package-minus;
+}
+
+.callout[data-callout="package-open"] {
+    --callout-color: 193, 137, 12;
+    --callout-icon: lucide-package-open;
+}
+
+.callout[data-callout="package-plus"] {
+    --callout-color: 25, 167, 50;
+    --callout-icon: lucide-package-plus;
+}
+
+.callout[data-callout="package-search"] {
+    --callout-color: 255, 33, 25;
+    --callout-icon: lucide-package-search;
+}
+
+.callout[data-callout="package-x"] {
+    --callout-color: 207, 211, 61;
+    --callout-icon: lucide-package-x;
+}
+
+.callout[data-callout="panel-top"] {
+    --callout-color: 25, 13, 0;
+    --callout-icon: lucide-panel-top;
+}
+
+.callout[data-callout="panels-top-left"] {
+    --callout-color: 25, 250, 71;
+    --callout-icon: lucide-panels-top-left;
+}
+
+.callout[data-callout="paperclip"] {
+    --callout-color: 181, 133, 12;
+    --callout-icon: lucide-paperclip;
+}
+
+.callout[data-callout="parentheses"] {
+    --callout-color: 13, 163, 50;
+    --callout-icon: lucide-parentheses;
+}
+
+.callout[data-callout="pc-case"] {
+    --callout-color: 239, 17, 25;
+    --callout-icon: lucide-pc-case;
+}
+
+.callout[data-callout="percent"] {
+    --callout-color: 195, 195, 61;
+    --callout-icon: lucide-percent;
+}
+
+.callout[data-callout="phone"] {
+    --callout-color: 25, 5, 0;
+    --callout-icon: lucide-phone;
+}
+
+.callout[data-callout="phone-call"] {
+    --callout-color: 11, 246, 71;
+    --callout-icon: lucide-phone-call;
+}
+
+.callout[data-callout="phone-forwarded"] {
+    --callout-color: 169, 129, 12;
+    --callout-icon: lucide-phone-forwarded;
+}
+
+.callout[data-callout="phone-incoming"] {
+    --callout-color: 1, 159, 50;
+    --callout-icon: lucide-phone-incoming;
+}
+
+.callout[data-callout="phone-missed"] {
+    --callout-color: 227, 1, 25;
+    --callout-icon: lucide-phone-missed;
+}
+
+.callout[data-callout="phone-off"] {
+    --callout-color: 183, 179, 61;
+    --callout-icon: lucide-phone-off;
+}
+
+.callout[data-callout="phone-outgoing"] {
+    --callout-color: 49, 253, 0;
+    --callout-icon: lucide-phone-outgoing;
+}
+
+.callout[data-callout="piano"] {
+    --callout-color: 25, 242, 71;
+    --callout-icon: lucide-piano;
+}
+
+.callout[data-callout="pip"] {
+    --callout-color: 157, 125, 12;
+    --callout-icon: lucide-pip;
+}
+
+.callout[data-callout="plug"] {
+    --callout-color: 25, 155, 50;
+    --callout-icon: lucide-plug;
+}
+
+.callout[data-callout="plug-2"] {
+    --callout-color: 215, 241, 25;
+    --callout-icon: lucide-plug-2;
+}
+
+.callout[data-callout="plug-zap"] {
+    --callout-color: 171, 163, 61;
+    --callout-icon: lucide-plug-zap;
+}
+
+.callout[data-callout="plus"] {
+    --callout-color: 67, 249, 0;
+    --callout-icon: lucide-plus;
+}
+
+.callout[data-callout="presentation"] {
+    --callout-color: 13, 238, 71;
+    --callout-icon: lucide-presentation;
+}
+
+.callout[data-callout="printer"] {
+    --callout-color: 145, 121, 12;
+    --callout-icon: lucide-printer;
+}
+
+.callout[data-callout="printer-check"] {
+    --callout-color: 13, 151, 50;
+    --callout-icon: lucide-printer-check;
+}
+
+.callout[data-callout="projector"] {
+    --callout-color: 203, 225, 25;
+    --callout-icon: lucide-projector;
+}
+
+.callout[data-callout="proportions"] {
+    --callout-color: 159, 147, 61;
+    --callout-icon: lucide-proportions;
+}
+
+.callout[data-callout="puzzle"] {
+    --callout-color: 85, 245, 0;
+    --callout-icon: lucide-puzzle;
+}
+
+.callout[data-callout="qr-code"] {
+    --callout-color: 1, 234, 71;
+    --callout-icon: lucide-qr-code;
+}
+
+.callout[data-callout="radio"] {
+    --callout-color: 133, 117, 12;
+    --callout-icon: lucide-radio;
+}
+
+.callout[data-callout="radio-receiver"] {
+    --callout-color: 1, 147, 50;
+    --callout-icon: lucide-radio-receiver;
+}
+
+.callout[data-callout="radio-tower"] {
+    --callout-color: 191, 209, 25;
+    --callout-icon: lucide-radio-tower;
+}
+
+.callout[data-callout="radical"] {
+    --callout-color: 147, 131, 61;
+    --callout-icon: lucide-radical;
+}
+
+.callout[data-callout="rectangle-circle"] {
+    --callout-color: 103, 241, 0;
+    --callout-icon: lucide-rectangle-circle;
+}
+
+.callout[data-callout="rectangle-ellipsis"] {
+    --callout-color: 25, 230, 71;
+    --callout-icon: lucide-rectangle-ellipsis;
+}
+
+.callout[data-callout="rectangle-goggles"] {
+    --callout-color: 121, 113, 12;
+    --callout-icon: lucide-rectangle-goggles;
+}
+
+.callout[data-callout="refresh-ccw-dot"] {
+    --callout-color: 25, 143, 50;
+    --callout-icon: lucide-refresh-ccw-dot;
+}
+
+.callout[data-callout="regex"] {
+    --callout-color: 179, 193, 25;
+    --callout-icon: lucide-regex;
+}
+
+.callout[data-callout="rocket"] {
+    --callout-color: 135, 115, 61;
+    --callout-icon: lucide-rocket;
+}
+
+.callout[data-callout="router"] {
+    --callout-color: 121, 237, 0;
+    --callout-icon: lucide-router;
+}
+
+.callout[data-callout="rss"] {
+    --callout-color: 13, 226, 71;
+    --callout-icon: lucide-rss;
+}
+
+.callout[data-callout="satellite-dish"] {
+    --callout-color: 109, 109, 12;
+    --callout-icon: lucide-satellite-dish;
+}
+
+.callout[data-callout="save"] {
+    --callout-color: 13, 139, 50;
+    --callout-icon: lucide-save;
+}
+
+.callout[data-callout="save-all"] {
+    --callout-color: 167, 177, 25;
+    --callout-icon: lucide-save-all;
+}
+
+.callout[data-callout="save-off"] {
+    --callout-color: 123, 99, 61;
+    --callout-icon: lucide-save-off;
+}
+
+.callout[data-callout="scan"] {
+    --callout-color: 139, 233, 0;
+    --callout-icon: lucide-scan;
+}
+
+.callout[data-callout="scan-barcode"] {
+    --callout-color: 1, 222, 71;
+    --callout-icon: lucide-scan-barcode;
+}
+
+.callout[data-callout="scan-eye"] {
+    --callout-color: 97, 105, 12;
+    --callout-icon: lucide-scan-eye;
+}
+
+.callout[data-callout="scan-face"] {
+    --callout-color: 1, 135, 50;
+    --callout-icon: lucide-scan-face;
+}
+
+.callout[data-callout="scan-line"] {
+    --callout-color: 155, 161, 25;
+    --callout-icon: lucide-scan-line;
+}
+
+.callout[data-callout="scan-qr-code"] {
+    --callout-color: 111, 83, 61;
+    --callout-icon: lucide-scan-qr-code;
+}
+
+.callout[data-callout="scan-text"] {
+    --callout-color: 157, 229, 0;
+    --callout-icon: lucide-scan-text;
+}
+
+.callout[data-callout="screen-share"] {
+    --callout-color: 25, 218, 71;
+    --callout-icon: lucide-screen-share;
+}
+
+.callout[data-callout="screen-share-off"] {
+    --callout-color: 85, 101, 12;
+    --callout-icon: lucide-screen-share-off;
+}
+
+.callout[data-callout="scroll"] {
+    --callout-color: 25, 131, 50;
+    --callout-icon: lucide-scroll;
+}
+
+.callout[data-callout="scroll-text"] {
+    --callout-color: 143, 145, 25;
+    --callout-icon: lucide-scroll-text;
+}
+
+.callout[data-callout="search-code"] {
+    --callout-color: 99, 67, 61;
+    --callout-icon: lucide-search-code;
+}
+
+.callout[data-callout="server"] {
+    --callout-color: 175, 225, 0;
+    --callout-icon: lucide-server;
+}
+
+.callout[data-callout="server-cog"] {
+    --callout-color: 13, 214, 71;
+    --callout-icon: lucide-server-cog;
+}
+
+.callout[data-callout="server-crash"] {
+    --callout-color: 73, 97, 12;
+    --callout-icon: lucide-server-crash;
+}
+
+.callout[data-callout="server-off"] {
+    --callout-color: 13, 127, 50;
+    --callout-icon: lucide-server-off;
+}
+
+.callout[data-callout="shell"] {
+    --callout-color: 131, 129, 25;
+    --callout-icon: lucide-shell;
+}
+
+.callout[data-callout="sheet"] {
+    --callout-color: 87, 51, 61;
+    --callout-icon: lucide-sheet;
+}
+
+.callout[data-callout="shield"] {
+    --callout-color: 193, 221, 0;
+    --callout-icon: lucide-shield;
+}
+
+.callout[data-callout="shield-alert"] {
+    --callout-color: 1, 210, 71;
+    --callout-icon: lucide-shield-alert;
+}
+
+.callout[data-callout="shield-ban"] {
+    --callout-color: 61, 93, 12;
+    --callout-icon: lucide-shield-ban;
+}
+
+.callout[data-callout="shield-check"] {
+    --callout-color: 1, 123, 50;
+    --callout-icon: lucide-shield-check;
+}
+
+.callout[data-callout="shield-ellipsis"] {
+    --callout-color: 119, 113, 25;
+    --callout-icon: lucide-shield-ellipsis;
+}
+
+.callout[data-callout="shield-half"] {
+    --callout-color: 75, 35, 61;
+    --callout-icon: lucide-shield-half;
+}
+
+.callout[data-callout="shield-minus"] {
+    --callout-color: 211, 217, 0;
+    --callout-icon: lucide-shield-minus;
+}
+
+.callout[data-callout="shield-off"] {
+    --callout-color: 25, 206, 71;
+    --callout-icon: lucide-shield-off;
+}
+
+.callout[data-callout="shield-plus"] {
+    --callout-color: 49, 89, 12;
+    --callout-icon: lucide-shield-plus;
+}
+
+.callout[data-callout="shield-question-mark"] {
+    --callout-color: 25, 119, 50;
+    --callout-icon: lucide-shield-question-mark;
+}
+
+.callout[data-callout="shield-user"] {
+    --callout-color: 107, 97, 25;
+    --callout-icon: lucide-shield-user;
+}
+
+.callout[data-callout="shield-x"] {
+    --callout-color: 63, 19, 61;
+    --callout-icon: lucide-shield-x;
+}
+
+.callout[data-callout="shredder"] {
+    --callout-color: 229, 213, 0;
+    --callout-icon: lucide-shredder;
+}
+
+.callout[data-callout="signpost"] {
+    --callout-color: 13, 202, 71;
+    --callout-icon: lucide-signpost;
+}
+
+.callout[data-callout="signpost-big"] {
+    --callout-color: 37, 85, 12;
+    --callout-icon: lucide-signpost-big;
+}
+
+.callout[data-callout="slack"] {
+    --callout-color: 13, 115, 50;
+    --callout-icon: lucide-slack;
+}
+
+.callout[data-callout="slash"] {
+    --callout-color: 95, 81, 25;
+    --callout-icon: lucide-slash;
+}
+
+.callout[data-callout="smartphone"] {
+    --callout-color: 51, 3, 61;
+    --callout-icon: lucide-smartphone;
+}
+
+.callout[data-callout="smartphone-charging"] {
+    --callout-color: 247, 209, 0;
+    --callout-icon: lucide-smartphone-charging;
+}
+
+.callout[data-callout="smartphone-nfc"] {
+    --callout-color: 1, 198, 71;
+    --callout-icon: lucide-smartphone-nfc;
+}
+
+.callout[data-callout="speaker"] {
+    --callout-color: 25, 81, 12;
+    --callout-icon: lucide-speaker;
+}
+
+.callout[data-callout="spell-check"] {
+    --callout-color: 1, 111, 50;
+    --callout-icon: lucide-spell-check;
+}
+
+.callout[data-callout="spell-check-2"] {
+    --callout-color: 83, 65, 25;
+    --callout-icon: lucide-spell-check-2;
+}
+
+.callout[data-callout="split"] {
+    --callout-color: 39, 243, 61;
+    --callout-icon: lucide-split;
+}
+
+.callout[data-callout="square-asterisk"] {
+    --callout-color: 255, 205, 0;
+    --callout-icon: lucide-square-asterisk;
+}
+
+.callout[data-callout="square-bottom-dashed-scissors"] {
+    --callout-color: 25, 194, 71;
+    --callout-icon: lucide-square-bottom-dashed-scissors;
+}
+
+.callout[data-callout="square-chart-gantt"] {
+    --callout-color: 13, 77, 12;
+    --callout-icon: lucide-square-chart-gantt;
+}
+
+.callout[data-callout="square-chevron-right"] {
+    --callout-color: 25, 107, 50;
+    --callout-icon: lucide-square-chevron-right;
+}
+
+.callout[data-callout="square-code"] {
+    --callout-color: 71, 49, 25;
+    --callout-icon: lucide-square-code;
+}
+
+.callout[data-callout="square-dashed-bottom"] {
+    --callout-color: 27, 227, 61;
+    --callout-icon: lucide-square-dashed-bottom;
+}
+
+.callout[data-callout="square-dashed-bottom-code"] {
+    --callout-color: 243, 201, 0;
+    --callout-icon: lucide-square-dashed-bottom-code;
+}
+
+.callout[data-callout="square-dashed-kanban"] {
+    --callout-color: 13, 190, 71;
+    --callout-icon: lucide-square-dashed-kanban;
+}
+
+.callout[data-callout="square-dashed-mouse-pointer"] {
+    --callout-color: 1, 73, 12;
+    --callout-icon: lucide-square-dashed-mouse-pointer;
+}
+
+.callout[data-callout="square-dashed-top-solid"] {
+    --callout-color: 13, 103, 50;
+    --callout-icon: lucide-square-dashed-top-solid;
+}
+
+.callout[data-callout="square-dot"] {
+    --callout-color: 59, 33, 25;
+    --callout-icon: lucide-square-dot;
+}
+
+.callout[data-callout="square-function"] {
+    --callout-color: 15, 211, 61;
+    --callout-icon: lucide-square-function;
+}
+
+.callout[data-callout="square-kanban"] {
+    --callout-color: 231, 197, 0;
+    --callout-icon: lucide-square-kanban;
+}
+
+.callout[data-callout="square-library"] {
+    --callout-color: 1, 186, 71;
+    --callout-icon: lucide-square-library;
+}
+
+.callout[data-callout="square-minus"] {
+    --callout-color: 25, 69, 12;
+    --callout-icon: lucide-square-minus;
+}
+
+.callout[data-callout="square-mouse-pointer"] {
+    --callout-color: 1, 99, 50;
+    --callout-icon: lucide-square-mouse-pointer;
+}
+
+.callout[data-callout="square-pi"] {
+    --callout-color: 47, 17, 25;
+    --callout-icon: lucide-square-pi;
+}
+
+.callout[data-callout="square-plus"] {
+    --callout-color: 3, 195, 61;
+    --callout-icon: lucide-square-plus;
+}
+
+.callout[data-callout="square-radical"] {
+    --callout-color: 219, 193, 0;
+    --callout-icon: lucide-square-radical;
+}
+
+.callout[data-callout="square-round-corner"] {
+    --callout-color: 25, 182, 71;
+    --callout-icon: lucide-square-round-corner;
+}
+
+.callout[data-callout="square-scissors"] {
+    --callout-color: 25, 65, 12;
+    --callout-icon: lucide-square-scissors;
+}
+
+.callout[data-callout="square-slash"] {
+    --callout-color: 25, 95, 50;
+    --callout-icon: lucide-square-slash;
+}
+
+.callout[data-callout="square-stack"] {
+    --callout-color: 35, 1, 25;
+    --callout-icon: lucide-square-stack;
+}
+
+.callout[data-callout="square-terminal"] {
+    --callout-color: 25, 179, 61;
+    --callout-icon: lucide-square-terminal;
+}
+
+.callout[data-callout="squircle-dashed"] {
+    --callout-color: 207, 189, 0;
+    --callout-icon: lucide-squircle-dashed;
+}
+
+.callout[data-callout="switch-camera"] {
+    --callout-color: 13, 178, 71;
+    --callout-icon: lucide-switch-camera;
+}
+
+.callout[data-callout="table"] {
+    --callout-color: 13, 61, 12;
+    --callout-icon: lucide-table;
+}
+
+.callout[data-callout="table-2"] {
+    --callout-color: 13, 91, 50;
+    --callout-icon: lucide-table-2;
+}
+
+.callout[data-callout="table-cells-merge"] {
+    --callout-color: 23, 243, 25;
+    --callout-icon: lucide-table-cells-merge;
+}
+
+.callout[data-callout="table-cells-split"] {
+    --callout-color: 25, 175, 61;
+    --callout-icon: lucide-table-cells-split;
+}
+
+.callout[data-callout="table-columns-split"] {
+    --callout-color: 195, 185, 0;
+    --callout-icon: lucide-table-columns-split;
+}
+
+.callout[data-callout="table-properties"] {
+    --callout-color: 1, 174, 71;
+    --callout-icon: lucide-table-properties;
+}
+
+.callout[data-callout="table-rows-split"] {
+    --callout-color: 1, 57, 12;
+    --callout-icon: lucide-table-rows-split;
+}
+
+.callout[data-callout="tablet"] {
+    --callout-color: 1, 87, 50;
+    --callout-icon: lucide-tablet;
+}
+
+.callout[data-callout="tablet-smartphone"] {
+    --callout-color: 11, 227, 25;
+    --callout-icon: lucide-tablet-smartphone;
+}
+
+.callout[data-callout="telescope"] {
+    --callout-color: 13, 171, 61;
+    --callout-icon: lucide-telescope;
+}
+
+.callout[data-callout="terminal"] {
+    --callout-color: 183, 181, 0;
+    --callout-icon: lucide-terminal;
+}
+
+.callout[data-callout="text"] {
+    --callout-color: 25, 170, 71;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="toggle-left"] {
+    --callout-color: 25, 53, 12;
+    --callout-icon: lucide-toggle-left;
+}
+
+.callout[data-callout="toggle-right"] {
+    --callout-color: 25, 83, 50;
+    --callout-icon: lucide-toggle-right;
+}
+
+.callout[data-callout="toilet"] {
+    --callout-color: 25, 211, 25;
+    --callout-icon: lucide-toilet;
+}
+
+.callout[data-callout="tool-case"] {
+    --callout-color: 1, 167, 61;
+    --callout-icon: lucide-tool-case;
+}
+
+.callout[data-callout="touchpad"] {
+    --callout-color: 171, 177, 0;
+    --callout-icon: lucide-touchpad;
+}
+
+.callout[data-callout="touchpad-off"] {
+    --callout-color: 13, 166, 71;
+    --callout-icon: lucide-touchpad-off;
+}
+
+.callout[data-callout="toy-brick"] {
+    --callout-color: 13, 49, 12;
+    --callout-icon: lucide-toy-brick;
+}
+
+.callout[data-callout="trash"] {
+    --callout-color: 13, 79, 50;
+    --callout-icon: lucide-trash;
+}
+
+.callout[data-callout="trash-2"] {
+    --callout-color: 25, 195, 25;
+    --callout-icon: lucide-trash-2;
+}
+
+.callout[data-callout="trello"] {
+    --callout-color: 25, 163, 61;
+    --callout-icon: lucide-trello;
+}
+
+.callout[data-callout="triangle-alert"] {
+    --callout-color: 159, 173, 0;
+    --callout-icon: lucide-triangle-alert;
+}
+
+.callout[data-callout="tv"] {
+    --callout-color: 1, 162, 71;
+    --callout-icon: lucide-tv;
+}
+
+.callout[data-callout="tv-minimal"] {
+    --callout-color: 1, 45, 12;
+    --callout-icon: lucide-tv-minimal;
+}
+
+.callout[data-callout="tv-minimal-play"] {
+    --callout-color: 1, 75, 50;
+    --callout-icon: lucide-tv-minimal-play;
+}
+
+.callout[data-callout="ungroup"] {
+    --callout-color: 13, 179, 25;
+    --callout-icon: lucide-ungroup;
+}
+
+.callout[data-callout="unplug"] {
+    --callout-color: 13, 159, 61;
+    --callout-icon: lucide-unplug;
+}
+
+.callout[data-callout="upload"] {
+    --callout-color: 147, 169, 0;
+    --callout-icon: lucide-upload;
+}
+
+.callout[data-callout="usb"] {
+    --callout-color: 25, 158, 71;
+    --callout-icon: lucide-usb;
+}
+
+.callout[data-callout="variable"] {
+    --callout-color: 25, 41, 12;
+    --callout-icon: lucide-variable;
+}
+
+.callout[data-callout="vibrate"] {
+    --callout-color: 25, 71, 50;
+    --callout-icon: lucide-vibrate;
+}
+
+.callout[data-callout="vibrate-off"] {
+    --callout-color: 1, 163, 25;
+    --callout-icon: lucide-vibrate-off;
+}
+
+.callout[data-callout="video"] {
+    --callout-color: 1, 155, 61;
+    --callout-icon: lucide-video;
+}
+
+.callout[data-callout="video-off"] {
+    --callout-color: 135, 165, 0;
+    --callout-icon: lucide-video-off;
+}
+
+.callout[data-callout="videotape"] {
+    --callout-color: 13, 154, 71;
+    --callout-icon: lucide-videotape;
+}
+
+.callout[data-callout="voicemail"] {
+    --callout-color: 13, 37, 12;
+    --callout-icon: lucide-voicemail;
+}
+
+.callout[data-callout="wallpaper"] {
+    --callout-color: 13, 67, 50;
+    --callout-icon: lucide-wallpaper;
+}
+
+.callout[data-callout="washing-machine"] {
+    --callout-color: 25, 147, 25;
+    --callout-icon: lucide-washing-machine;
+}
+
+.callout[data-callout="waypoints"] {
+    --callout-color: 25, 151, 61;
+    --callout-icon: lucide-waypoints;
+}
+
+.callout[data-callout="webcam"] {
+    --callout-color: 123, 161, 0;
+    --callout-icon: lucide-webcam;
+}
+
+.callout[data-callout="webhook"] {
+    --callout-color: 1, 150, 71;
+    --callout-icon: lucide-webhook;
+}
+
+.callout[data-callout="webhook-off"] {
+    --callout-color: 1, 33, 12;
+    --callout-icon: lucide-webhook-off;
+}
+
+.callout[data-callout="wifi"] {
+    --callout-color: 1, 63, 50;
+    --callout-icon: lucide-wifi;
+}
+
+.callout[data-callout="wifi-cog"] {
+    --callout-color: 13, 131, 25;
+    --callout-icon: lucide-wifi-cog;
+}
+
+.callout[data-callout="wifi-high"] {
+    --callout-color: 13, 147, 61;
+    --callout-icon: lucide-wifi-high;
+}
+
+.callout[data-callout="wifi-low"] {
+    --callout-color: 111, 157, 0;
+    --callout-icon: lucide-wifi-low;
+}
+
+.callout[data-callout="wifi-off"] {
+    --callout-color: 25, 146, 71;
+    --callout-icon: lucide-wifi-off;
+}
+
+.callout[data-callout="wifi-pen"] {
+    --callout-color: 25, 29, 12;
+    --callout-icon: lucide-wifi-pen;
+}
+
+.callout[data-callout="wifi-zero"] {
+    --callout-color: 25, 59, 50;
+    --callout-icon: lucide-wifi-zero;
+}
+
+.callout[data-callout="workflow"] {
+    --callout-color: 13, 115, 25;
+    --callout-icon: lucide-workflow;
+}
+
+.callout[data-callout="wrench"] {
+    --callout-color: 13, 143, 61;
+    --callout-icon: lucide-wrench;
+}
+
+.callout[data-callout="zap"] {
+    --callout-color: 99, 153, 0;
+    --callout-icon: lucide-zap;
+}
+
+.callout[data-callout="zap-off"] {
+    --callout-color: 13, 142, 71;
+    --callout-icon: lucide-zap-off;
+}
+
+
+/* ============================================================================
+   USAGE EXAMPLES - Copy these examples to use in your notes:
+   ============================================================================ */
+
+/*
+Available Callout Types (375 total):
+
+Development Icons (237):
+- Code-related: code, code-xml, codepen, codesandbox, file-code, file-code-2
+- Git-related: git-branch, git-commit-horizontal, git-merge, github, gitlab
+- Database: database, database-backup, database-zap
+- Server: server, server-cog, server-crash, server-off
+- Security: shield, shield-alert, shield-check, shield-x
+- And many more...
+
+Devices Icons (159):  
+- Computers: computer, laptop, laptop-minimal, monitor, cpu, gpu
+- Mobile: smartphone, tablet, tablet-smartphone
+- Audio/Video: headphones, speaker, microphone, camera, webcam
+- Connectivity: wifi, bluetooth, usb, ethernet-port
+- And many more...
+
+Example Usage in Notes:
+> [!code] Code Block
+> This is for code-related content
+
+> [!database] Database Info  
+> Information about databases
+
+> [!smartphone] Mobile Note
+> Mobile-specific content
+
+> [!wifi] Network Status
+> Network connectivity information
+*/
